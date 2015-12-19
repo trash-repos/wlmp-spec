@@ -20,7 +20,7 @@ A `wlmp` file is an xml document with the basic structure looking approx. like t
 </Project>
 ```
 
-## <Project>
+## `<Project>`
  * children:
    * `<MediaItems>`
    * `<Extents>`
@@ -34,7 +34,7 @@ A `wlmp` file is an xml document with the basic structure looking approx. like t
    * `version` – version of MovieMaker? TODO investigate
    * `templateID` – defaults to `SimpleProjectTemplate`
 
-## <AudioDuckingProperties>
+## `<AudioDuckingProperties>`
  * children: none
  * attributes:
    * `emphasisPlaceholderID`
@@ -43,10 +43,10 @@ A `wlmp` file is an xml document with the basic structure looking approx. like t
      * `"Narration"` (default) – emphasize narration
      * `"Main"` – emphasize sound of video
 
-## <MediaItems>
+## `<MediaItems>`
  * children: `<MediaItem>`
 
-# <MediaItem>
+# `<MediaItem>`
  * children: none
  * attributes:
    * `id` – integer, autoincrement, begins with `"1"`
